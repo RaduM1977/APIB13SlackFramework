@@ -1,5 +1,5 @@
 @get
-Feature: List messages
+Feature: List messages and find the message
 
   Background:
     Given user has valid slack url

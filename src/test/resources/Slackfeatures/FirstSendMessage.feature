@@ -1,3 +1,4 @@
+@post
 Feature: Slack post messages
 
   Scenario: Successfully sending message to slack channel
