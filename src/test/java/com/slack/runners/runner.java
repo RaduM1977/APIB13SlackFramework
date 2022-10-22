@@ -11,7 +11,9 @@ import org.junit.runner.RunWith;
         dryRun = false,
         tags = "@post or @get or @put or @delete ",
         //tags = "",
-        snippets = CucumberOptions.SnippetType.CAMELCASE
+        snippets = CucumberOptions.SnippetType.CAMELCASE,
+        plugin = {"pretty","html:target/uiReport.html","rerun:target/uiFailedTests.txt",
+        "json:target/cucumber-reports/cucumber.json"}
 )
 
 public class runner {
